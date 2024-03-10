@@ -14,10 +14,6 @@ module Devise
       def copy_views
         directory "app/views/devise", "app/views/devise"
       end
-
-      def copy_helpers
-        directory "app/helpers", "app/helpers"
-      end
     end
   end
 end
